@@ -1,10 +1,6 @@
-/*
-*
-*
-* ReactElement(Object) => HTML(Browser Understand)
-*
-*/
-
+// ReactElement(Object) => HTML(Browser Understand)
+import React from "react";
+import ReactDOM from "react-dom/client"
 
 const parent = React.createElement("div",{id: "parent"},
   [
@@ -24,13 +20,3 @@ const parent = React.createElement("div",{id: "parent"},
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(parent)
-
-// const heading = React.createElement(
-//   "h1",
-//   {id: "heading"},
-//   "This is Recat Shiva"
-// );
-
-// const root = ReactDOM.createRoot(document.getElementById("root"));
-
-// root.render(heading);

@@ -1,0 +1,32 @@
+{
+  "name": "shiva-react",
+  "version": "1.0.0",
+  "description": "This is shiva react",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sivaiagpolagani/Shiva-React.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "Shiva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sivaiagpolagani/Shiva-React/issues"
+  },
+  "homepage": "https://github.com/sivaiagpolagani/Shiva-React#readme",
+  "devDependencies": {
+    "parcel": "^2.12.0",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "browserslist": [
+    "last 2 versions"
+  ]
+}
