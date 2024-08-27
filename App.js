@@ -1,22 +1,25 @@
-// ReactElement(Object) => HTML(Browser Understand)
 import React from "react";
 import ReactDOM from "react-dom/client"
 
-const parent = React.createElement("div",{id: "parent"},
-  [
-    React.createElement("div",{id: "child"},
-      [
-        React.createElement("h1",{},"Welcome to Shivas Viewpoint"),
-        React.createElement("h2",{},"Shivas Viewpoint")
-      ]),
-    React.createElement("div",{id: "child2"},
-      [
-        React.createElement("h1",{},"Welcome to children 2"),
-        React.createElement("h2",{},"Shivas Viewpoint")
-      ])
-  ]
+const elem = <span>this is element</span>
+const Title = (fine) => (
+  <h1 className="head" tabIndex="5">
+    This Shiva React {elem} {fine}
+  </h1>
 );
 
-const root = ReactDOM.createRoot(document.getElementById("root"));
+const id = 1000;
+const st = "fgjbh"
+//Component Composation
+const HeadingComponent = () => (
+  <div id="container">
+   {Title("ramp")}
+    <h1 className="head" tabIndex="1">This is a functional Component</h1>
+  </div>
+);
 
-root.render(parent)
+const root = ReactDOM.createRoot(
+  document.getElementById("root")
+);
+
+root.render(<HeadingComponent />)

@@ -1,0 +1,30 @@
+***************================================*********************
+
+JSX React:
+
+JSX (JavaScript XML) is a syntax extension for JavaScript used in React. 
+It allows you to write HTML-like code within JavaScript, making it easier to create and visualize UI components. 
+JSX provides a more intuitive way to describe the structure of your user interface, 
+which React then transforms into JavaScript that the browser can understand.
+
+const JSXheading = <h1>This is Shiva React !!!</h1> (This is not HTML inside JS, it's a JSX) - (HTML like syntax)
+
+***************================================*********************
+
+JS Engine understands ECMA script.
+const JSXheading = <h1>This is Shiva React !!!</h1> -> This is not a pure javascript because JS engine doesn't understand.
+
+JSX -> Parcel-Babel (transpiled) -> JS Engine
+
+JSX (transpiled before it reaches JS engine) - Parcel - Babel is transforming and Parcel is using it.
+
+React.createElemrnt => JS Object => HTMLelement(render)
+JSX => React.createElemrnt => JS Object => HTMLelement(render)
+
+ES6 => babel (Transpile) => Compatable with old browsers 
+
+***************================================*********************
+
+Components: 
+  1) Class Based Component - OLD
+  2) Functional Component - NEW (Function that returns JSX is a functional Component)
