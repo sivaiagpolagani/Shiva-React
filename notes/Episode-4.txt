@@ -1,0 +1,26 @@
+Components App should have:
+
+1)App Components
+  * Header
+    - logo
+    - Nav Items
+  * Body
+    - Search
+    - RestarentContainer
+      ~ Restaurent Card
+  * Footer
+    - Copyright
+    - Links
+    - Address
+    - Contact
+
+
+
+Config Driven UI:
+UI is driven by a config which is sent by a backend.
+
+
+key:
+Do not use index as a key, as it's not recommended.
+We need to use key.
+Ex: restList.map((restaurent) => (<RestaurantCard key={restaurent.info.id} resData={restaurent}/>))

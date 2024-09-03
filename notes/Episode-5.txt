@@ -1,0 +1,29 @@
+***************================================*********************
+
+Export in 2 ways:
+  1) Default export (export default name)
+  2) Named Export   (export conat LOGO_URL="fghfkg.jpg")
+
+Import 2 ways:
+  1) import RestaurantCard from "./RestaurantCard";
+  2) import { CDN_URL } from "../../utils/constants";
+
+***************================================*********************
+
+React Hooks:
+
+(Normal JS utility functions)
+- useState() - Superpowerful state react variable
+- useEffect()
+
+Whenever state variable changes, React will re-render the component.
+
+***************================================*********************
+
+React uses reconcilation algorithem also known as React Fibre.
+https://github.com/acdlite/react-fiber-architecture
+
+Virtual DOM is a reprasentation of actual DOM.
+Virtual DOM is a object which was console in JSX.
+
+Diff Algorithem 
