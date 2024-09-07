@@ -1,0 +1,16 @@
+***************================================*********************
+
+We usually think client side rendering adding server side rendring to the react like additional layer for optimization.
+
+Client Side Rendering VS Server Side Rendering
+
+Client Side Rendering:
+
+Load Js -> Fetch Data -> Render Components -> Interactive
+
+Server Side Rendering:
+
+Fetch Data -> Render as HTML -> Load Js -> Hydrate 
+
+
+Mean while api returns data, we use spinner and it's not good way as per UI experience. So, We use shimmer which will show fake UI.

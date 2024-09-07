@@ -169,4 +169,24 @@
   padding: 10px;
   margin: 10px;
   cursor: pointer;
+  display: flex;
+}
+
+.filter-btn {
+  margin: 0 20px;
+}
+
+.shimmer-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.shimmer-card {
+  width: 280px;
+  height: 200px;
+  background-color: rgb(216, 214, 214);
+  margin: 20px 0;
+  border-radius: 20px;
+  padding: 15px;
 }
